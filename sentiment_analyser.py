@@ -5,8 +5,8 @@ from ibm_watson_machine_learning.foundation_models import Model
 from ibm_watson_machine_learning.metanames import GenTextParamsMetaNames as GenParams
 
 # ===== CONFIGURATION =====
-API_KEY = "KHI2uykN4nH0YScyIMoLolSFlTnF3R21EKEJd3qFR_78"  
-PROJECT_ID = "59fd8ed4-1231-4703-a8c2-5615e94d3b54"  
+API_KEY = "YOUR-API-KEY"  
+PROJECT_ID = "YOUR-PROJECT-ID"  
 INPUT_CSV = "legal_cases.csv"
 OUTPUT_FILE = "case_sentiment_results.csv"
 SERVICE_URL = "https://us-south.ml.cloud.ibm.com"
